@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Madhukrishna | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">MK.</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="intro">HELLO, I'M</p>
+
+            <h1>Madhukrishna</h1>
+
+            <h2>College Student & Aspiring Developer</h2>
+
+            <p class="hero-text">
+                Welcome to my personal portfolio. I'm a student who enjoys
+                learning technology, programming and exploring new ideas.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+
+        </div>
+
+        <div class="hero-card">
+            <div class="profile-circle">MK</div>
+            <h3>Curious Mind</h3>
+            <p>Learning • Creating • Exploring</p>
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+
+        <div class="section-title">
+            <p>GET TO KNOW ME</p>
+            <h2>About Me</h2>
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-text">
+
+                <p>
+                    I'm Madhukrishna, a college student interested in
+                    technology, programming and creative problem solving.
+                </p>
+
+                <p>
+                    My interest in technology has grown through academics,
+                    personal projects and experimenting with different
+                    software and programming concepts.
+                </p>
+
+                <p>
+                    I enjoy learning by actually building things and
+                    understanding how they work. I'm currently developing
+                    my skills in programming and web technologies while
+                    exploring the areas of technology that interest me.
+                </p>
+
+            </div>
+
+            <div class="about-info">
+
+                <div class="info-box">
+                    <span>🎓</span>
+                    <h3>Education</h3>
+                    <p>College Student</p>
+                </div>
+
+                <div class="info-box">
+                    <span>💻</span>
+                    <h3>Interests</h3>
+                    <p>Programming & Technology</p>
+                </div>
+
+                <div class="info-box">
+                    <span>🚀</span>
+                    <h3>Goal</h3>
+                    <p>Keep Learning & Building</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section dark-section">
+
+        <div class="section-title">
+            <p>WHAT I'M LEARNING</p>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <div class="skill-icon">🐍</div>
+                <h3>Python</h3>
+                <p>
+                    Learning Python programming and applying it to
+                    academic and practical problems.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>HTML</h3>
+                <p>
+                    Creating the structure and content of websites
+                    using HTML.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>CSS</h3>
+                <p>
+                    Designing responsive and visually appealing
+                    web pages using CSS.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🗄️</div>
+                <h3>MySQL</h3>
+                <p>
+                    Learning database concepts and working with
+                    structured data.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+
+        <div class="section-title">
+            <p>WHAT I'VE BUILT</p>
+            <h2>My Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+
+                <div class="project-number">01</div>
+
+                <h3>Hospital Management System</h3>
+
+                <p>
+                    A Python and MySQL based academic project designed
+                    to manage hospital-related information such as
+                    patients, doctors and records.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>MySQL</span>
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">02</div>
+
+                <h3>Matrix Eigenvalue Program</h3>
+
+                <p>
+                    A Python program created to work with matrices and
+                    calculate eigenvalues using mathematical and
+                    programming concepts.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Mathematics</span>
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">03</div>
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    This website is my personal portfolio created using
+                    HTML and CSS and hosted using GitHub Pages.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>GitHub</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Interests Section -->
+    <section id="interests" class="section interests-section">
+
+        <div class="section-title">
+            <p>BEYOND ACADEMICS</p>
+            <h2>My Interests</h2>
+        </div>
+
+        <div class="interests-grid">
+
+            <div class="interest-card">
+                <span>🌌</span>
+                <h3>Space</h3>
+                <p>
+                    I'm fascinated by space, the universe and the
+                    questions surrounding it.
+                </p>
+            </div>
+
+            <div class="interest-card">
+                <span>🎮</span>
+                <h3>Gaming</h3>
+                <p>
+                    I enjoy mobile and PC gaming and exploring
+                    different games.
+                </p>
+            </div>
+
+            <div class="interest-card">
+                <span>💡</span>
+                <h3>Technology</h3>
+                <p>
+                    I enjoy experimenting with technology and learning
+                    how different systems work.
+                </p>
+            </div>
+
+            <div class="interest-card">
+                <span>🔭</span>
+                <h3>Exploration</h3>
+                <p>
+                    I'm naturally curious and enjoy discovering
+                    new topics and ideas.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+
+        <div class="section-title">
+            <p>LET'S CONNECT</p>
+            <h2>Contact Me</h2>
+        </div>
+
+        <div class="contact-content">
+
+            <p>
+                I'm always interested in learning, collaborating and
+                connecting with people who share an interest in technology.
+            </p>
+
+            <div class="contact-links">
+
+                <!-- Replace the email below with your college/professional email -->
+                <a href="mailto:madhukrishna0708@gmail.com" class="contact-btn">
+                    ✉ Email Me
+                </a>
+
+                <!-- Replace # with your GitHub profile link -->
+                <a href="#" class="https://github.com/madhukrishna0708">
+                    💻 GitHub
+                </a>
+
+                <!-- Replace # with your LinkedIn profile link -->
+                <a href="#" class="contact-btn">
+                    🔗 LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Madhukrishna. Built with HTML & CSS.
+        </p>
+
+        <p class="footer-note">
+            Designed and developed as a personal portfolio.
+        </p>
+
+    </footer>
+
+
+</body>
+</html>
